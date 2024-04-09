@@ -129,7 +129,7 @@ const Content = () => {
 
         <h1 className="text-6xl text-center ml-24 mb-60">OUR CLIENTS</h1>
         <h1 className="text-7xl text-center ml-24 mb-40">
-          LET'S DIVE <span className="text-[#13b597]">DEEPER</span>.
+          LET&apos;S DIVE <span className="text-[#13b597]">DEEPER</span>.
         </h1>
         <div className="flex justify-center sm:justify-around">
           <div className="">
