@@ -6,9 +6,10 @@ import Content from "@/components/Content";
 
 const Home = () => {
   const scrollToServices = () => {
-    document
-      .getElementById("services-section")
-      .scrollIntoView({ behavior: "smooth" });
+    const element = document.getElementById("services-section");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
