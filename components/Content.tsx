@@ -136,7 +136,7 @@ const Content = () => {
             <div className="text-5xl font-light mb-24 p-10 leading-[65px]">
               <h1>Mister Baker</h1>
               <h1>Warehouse Gym</h1>
-              <h1>Cuppin's</h1>
+              <h1>Cuppin&apos;s</h1>
               <h1>Carat Finder</h1>
               <h1>Project Ghar</h1>
               <h1>Krocus</h1>
