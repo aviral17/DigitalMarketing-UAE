@@ -10,7 +10,7 @@ import Link from "next/link";
 const Content = () => {
   return (
     <div className="dark_mode min-h-screen flex flex-col justify-center items-start">
-      <div className="ml-40">
+      <div className="">
         <h2 className="text-3xl mt-40">CREATIVE MIND, CREATIVE WORKS.</h2>
         <h1 className="text-7xl mt-10">
           We Design beautiful <span className="text-[#13b597]">digital</span>{" "}
@@ -175,7 +175,9 @@ const Content = () => {
             <FaInstagram className="w-[70%]  h-[70%] m-auto align-middle mt-3" />
           </div>
         </div>
-        <Footer />
+        <div className="w-full flex ml-5 md:justify-center md:items-center">
+          <Footer />
+        </div>
       </div>
     </div>
   );

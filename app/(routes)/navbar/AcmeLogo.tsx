@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 export const AcmeLogo = () => (
-  <div className="pt-4 bg-none">
+  <div className="pt-4 bg-none w-100">
     <Image
       width="258"
       height="101"

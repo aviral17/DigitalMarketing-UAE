@@ -13,33 +13,36 @@ const Footer = () => {
           alt=""
         />
       </div>
-      <div className="flex flex-row justify-around items-center">
-        <div className="flex flex-col">
-          <h1 className="mb-5 text-4xl">SERVICES</h1>
-          <div className="cursor-pointer leading-loose text-2xl">
-            <p>Website Development</p>
-            <p>Digital Strategy</p>
-            <p>Social Media</p>
-            <p>Branding/Awareness</p>
+      <div className="w-full">
+        <div className="flex flex-col md:flex-row md:justify-between gap-28 md:gap-14 lg:gap-24 md:items-center">
+          <div className="flex flex-col">
+            <h1 className="text-2xl">SERVICES</h1>
+            <div className="cursor-pointer leading-loose text-xl">
+              <p>○ Website Development</p>
+              <p>○ Digital Strategy</p>
+              <p>○ Social Media</p>
+              <p>○ Branding/Awareness</p>
+            </div>
           </div>
-        </div>
-        <div className="flex flex-col">
-          <h1 className="mb-10 text-4xl">QUICK LINKS</h1>
-          <div className="cursor-pointer leading-loose ml-2 text-2xl">
-            <p className="-mt-5">Home</p>
-            <p>About Us</p>
-            <p>Services</p>
-            <p>Work</p>
-            {/* <p>Contact Us</p>
+          <div className="flex flex-col">
+            <h1 className="text-2xl">QUICK LINKS</h1>
+            <div className="cursor-pointer leading-loose ml-2 text-xl">
+              <p className="">○ Home</p>
+              <p>○ About Us</p>
+              <p>○ Services</p>
+              <p>○ Work</p>
+              {/* <p>Contact Us</p>
             <p>Privacy Policy</p> */}
+            </div>
           </div>
-        </div>
-        <div className="flex flex-col mb-16">
-          <h1 className="mb-5 text-4xl">CONTACT</h1>
-          <div className="cursor-pointer leading-loose text-2xl">
-            <p>HD-21 In5 Media, Dubai</p>
-            <p>+971 52 278 2047</p>
-            <p>info@metasocial.ae</p>
+          <div className="flex flex-col">
+            <h1 className="text-2xl">CONTACT</h1>
+            <div className="cursor-pointer leading-loose text-xl">
+              <p>○ HD-21 In5 Media, Dubai</p>
+              <p>○ +971 52 278 2047</p>
+              <p>○ +999 52 999 9999</p>
+              <p>○ info@metasocial.ae</p>
+            </div>
           </div>
         </div>
       </div>
